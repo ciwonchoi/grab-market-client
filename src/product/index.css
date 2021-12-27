@@ -6,7 +6,9 @@
 }
 
 #image-box > img {
-	height: 100%;
+	width: 100%;
+	max-height: 300px;
+	object-fit: contain;
 }
 
 #profile-box {
@@ -49,4 +51,10 @@
 
 #description {
 	margin-top: 16px;
+	font-size: 16px;
+}
+
+#purchase-button {
+	margin-top: 8px;
+	margin-botton: 16px;
 }
